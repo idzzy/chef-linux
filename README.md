@@ -58,22 +58,22 @@ Example
 
 * Download cookbook from https://supermarket.chef.io
 
-  ```
-  berks vendor cookbooks
-  ```
+```
+# berks vendor cookbooks
+```
 
 * Update some files for your environment
 
 ```
-data_bags/groups/
-data_bags/users/
-site-cookbooks/linux/attributes
+data_bags/groups/*
+data_bags/users/*
+site-cookbooks/linux/attributes/*
 ```
 
 * Create node and add role:linux to run_list
 
 ```
-knife node create NODE
+# knife node create NODE
 ```
 
 json example:
