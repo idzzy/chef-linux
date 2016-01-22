@@ -1,0 +1,7 @@
+name             'linux'
+maintainer       'admin'
+maintainer_email 'admin@example.com'
+license          'All rights reserved'
+description      'Linux Initial Configuration'
+version          '0.1.0'
+depends          'yum'

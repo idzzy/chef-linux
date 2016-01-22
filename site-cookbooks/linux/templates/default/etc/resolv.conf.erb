@@ -1,0 +1,5 @@
+domain <%= node["resolv"]["domain"] %>
+search <%= node["resolv"]["search"] %>
+<% node["mngsvr"]["dns"].each do |ns| %>
+nameserver <%= ns %>
+<% end %>

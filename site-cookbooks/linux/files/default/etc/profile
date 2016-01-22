@@ -1,0 +1,28 @@
+
+# Env
+PAGER=less
+LESS='-X -i -R'
+EDITOR=vi
+BLOCKSIZE=k
+export PATH PAGER LESS EDITOR BLOCKSIZE
+
+umask 022
+unset autologout
+unset noclobber
+set filec
+set nobeep
+set symlinks=ignore
+set autolist=ambiguous
+set notify
+set color
+set colorcat
+set history=500
+set savehist=500
+stty erase ^H
+stty stop undef
+LANG=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+JLESSCHARSET="japanese-euc"
+export LANG LC_ALL JLESSCHARSET
+
+uptime | sed -e 's/,[[:space:]]*load average.*$//g' -e 's/^[[:space:]]*//g'

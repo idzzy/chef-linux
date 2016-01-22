@@ -1,0 +1,31 @@
+{
+  "name": "linux",
+  "run_list": [
+    "recipe[chef-client::delete_validation]",
+    "recipe[linux::proxy]",
+    "recipe[linux::timezone]",
+    "recipe[linux::locale]",
+    "recipe[linux::kernel]",
+    "recipe[linux::selinux]",
+    "recipe[linux::coredump]",
+    "recipe[linux::kdump]",
+    "recipe[linux::init]",
+    "recipe[linux::dns]",
+    "recipe[linux::yum]",
+    "recipe[linux::pkg]",
+    "recipe[linux::cron]",
+    "recipe[linux::mail]",
+    "recipe[linux::env]",
+    "recipe[linux::hosts]",
+    "recipe[linux::network]",
+    "recipe[linux::ntp]",
+    "recipe[linux::snmp]",
+    "recipe[linux::rsyslog]",
+    "recipe[linux::ssh]",
+    "recipe[linux::service]",
+    "recipe[linux::groups]",
+    "recipe[linux::users]",
+    "recipe[linux::sudo]",
+    "recipe[linux::motd]"
+  ]
+}

@@ -1,0 +1,4 @@
+ALL   : 127.0.0.1
+sshd  : <%= node["acl_mask"]["stepserver"] %>
+<% snmpd_allows = node["acl_mask"]["snmp"].join(" ") %>
+snmpd : <%= snmpd_allows %>

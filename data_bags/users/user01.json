@@ -1,0 +1,9 @@
+{
+  "id": "user01",
+  "username": "user01",
+  "password": "password",
+  "gid": "1000",
+  "uid": "1000",
+  "home": "/home/user01",
+  "shell": "/bin/bash"
+}

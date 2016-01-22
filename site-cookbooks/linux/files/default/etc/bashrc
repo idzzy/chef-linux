@@ -1,0 +1,10 @@
+
+# Alias
+alias vi=vim
+alias rm='/bin/rm -i'
+alias mv='/bin/mv -i'
+alias cp='/bin/cp -i'
+alias ls='ls -F --color=auto'
+alias ll='ls -lF --color=auto'
+alias la='ls -laF --color=auto'
+alias grep='grep --color=auto'
