@@ -1,7 +1,7 @@
 Overview
 ========
 
-Chef cookbook for linux basic configuration, support os is CentOS6, 7.
+Chef cookbook for linux basic configuration like following recipes.
 
 Recipes
 ========
