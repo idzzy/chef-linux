@@ -56,13 +56,13 @@ Repository Directories
 Example
 =============
 
-* Download cookbook from https://supermarket.chef.io
+* 1. Download cookbook from https://supermarket.chef.io
 
 ```
 # berks vendor cookbooks
 ```
 
-* Update some files for your environment
+* 2. Update some files for your environment
 
 ```
 data_bags/groups/*
@@ -70,7 +70,7 @@ data_bags/users/*
 site-cookbooks/linux/attributes/*
 ```
 
-* Create node and add role:linux to run_list
+* 3. Create node and add role:linux to run_list
 
 ```
 # knife node create NODE
